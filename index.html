@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trường THPT Võ Chí Công - Đà Nẵng</title>
+
+    <!-- Font Awesome cho icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts: Sử dụng font Roboto cho hiện đại và dễ đọc -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Embed css here-->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container navbar">
+        <div class="logo">
+          <i class="fas fa-graduation-cap"></i>
+          THPT VÕ CHÍ CÔNG
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Trang chủ</a></li>
+          <li><a href="#about">Giới thiệu</a></li>
+          <li><a href="#news">Tin tức</a></li>
+          <li><a href="#admissions">Tuyển sinh</a></li>
+          <li><a href="#gallery">Hình ảnh</a></li>
+          <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Banner / Home -->
+    <section id="home">
+      <div class="hero-content">
+        <h1>Trường THPT Võ Chí Công</h1>
+        <p>Nơi ươm mầm tài năng - Đoàn kết, Sáng tạo và Phát triển</p>
+        <a href="#about" class="btn">Tìm hiểu ngay</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="section-title">Giới Thiệu Nhà Trường</div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <h3>Lịch sử & Truyền thống</h3>
+            <p>
+              Trường được vinh dự đặt tên theo đồng chí
+              <strong>Võ Chí Công</strong>, một nhà lãnh đạo cách mạng xuất sắc
+              của Việt Nam, quê ở tỉnh Quảng Nam.
+            </p>
+            <p>
+              Trường thường xuyên tổ chức các hoạt động ngoại khóa, các cuộc thi
+              tìm hiểu pháp luật, ngày hội đọc sách, và đặc biệt là các hoạt
+              động giáo dục truyền thống <em>"Uống nước nhớ nguồn"</em>.
+            </p>
+            <p>
+              Đội ngũ cán bộ, giáo viên nhà trường được đánh giá là đoàn kết,
+              vững vàng về chuyên môn, có nhiều đóng góp tích cực vào sự nghiệp
+              giáo dục của thành phố Đà Nẵng.
+            </p>
+          </div>
+          <div class="about-image">
+            <!-- Ảnh trường minh họa -->
+            <img src="Img/anh5.jpg" alt="Trường THPT Võ Chí Công" />
+          </div>
+        </div>
+
+        <!-- Cơ cấu tổ chức Accordion -->
+        <div class="org-structure">
+          <h3
+            style="
+              text-align: center;
+              margin-bottom: 30px;
+              color: var(--primary-color);
+            "
+          >
+            Đội Ngũ Giáo Viên & Cơ Cấu Tổ Chức
+          </h3>
+
+          <!-- 1. Ban Giám Hiệu -->
+          <div class="accordion-item">
+            <div class="accordion-header active">
+              <span
+                ><i class="fas fa-user-tie"></i> BAN GIÁM HIỆU NHÀ TRƯỜNG</span
+              >
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body" style="max-height: 500px">
+              <!-- Mở sẵn cái đầu tiên -->
+              <div class="table-responsive">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>STT</th>
+                      <th>Họ và tên</th>
+                      <th>Chức vụ</th>
+                      <th>Số điện thoại</th>
+                      <th>Email</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Lê Đức Hà</td>
+                      <td>Hiệu trưởng</td>
+                      <td>0914169255</td>
+                      <td>leduchaptt@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Nguyễn Văn Ngưng</td>
+                      <td>Phó hiệu trưởng</td>
+                      <td>0902568992</td>
+                      <td>ngungnv@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Nguyễn Văn Nghệ</td>
+                      <td>Phó hiệu trưởng</td>
+                      <td>0983673734</td>
+                      <td>nghenv2003@gmail.com</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Tổ Toán - Tin -->
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <span><i class="fas fa-calculator"></i> TỔ TOÁN - TIN</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+              <div class="table-responsive">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>STT</th>
+                      <th>Họ và tên</th>
+                      <th>Chức vụ</th>
+                      <th>Email</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Nguyễn Văn Nghệ</td>
+                      <td>Phó hiệu trưởng</td>
+                      <td>nghenv2003@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Lê Văn Hoà</td>
+                      <td>Tổ trưởng</td>
+                      <td>vanhoa0810@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Phạm Thị Đoan Phúc</td>
+                      <td></td>
+                      <td>doanphuc12st@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>Nguyễn Khánh My</td>
+                      <td></td>
+                      <td>khongiantopo@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>Lê Thị Minh Linh</td>
+                      <td></td>
+                      <td>lethiminhlinh2008@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>Nguyễn Văn Công</td>
+                      <td></td>
+                      <td>nguyenvancongntb@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>Phạm Thị Tiên</td>
+                      <td></td>
+                      <td>tien.ngoc.3294@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>8</td>
+                      <td>Nguyễn Khánh Hoà</td>
+                      <td></td>
+                      <td>kh1996ha@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>9</td>
+                      <td>Hồ Văn Dũng</td>
+                      <td></td>
+                      <td>vandunghodt14sth01@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>10</td>
+                      <td>Nguyễn Thị Tuyết Mai</td>
+                      <td></td>
+                      <td>maiphuongnho@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>11</td>
+                      <td>Nguyễn Văn Hải</td>
+                      <td>Tổ phó</td>
+                      <td>hai117997@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>12</td>
+                      <td>Lê Thị Khánh Minh</td>
+                      <td></td>
+                      <td>minhkhanh3118@gmail.com</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Tổ Ngữ Văn -->
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <span><i class="fas fa-book"></i> TỔ NGỮ VĂN</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+              <div class="table-responsive">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>STT</th>
+                      <th>Họ và tên</th>
+                      <th>Chức vụ</th>
+                      <th>Email</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Đặng Thị Đức Vui</td>
+                      <td>Tổ trưởng</td>
+                      <td>thiettran3010@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Nguyễn Hoàng Linh</td>
+                      <td></td>
+                      <td>hoanglinh7411@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Lê Thị Hoài Diễm</td>
+                      <td></td>
+                      <td>Hoaidiem08061996@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>Ngô Thị Hoài Thương</td>
+                      <td></td>
+                      <td>ngothoaithuong101@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>Dương Thị Ánh</td>
+                      <td></td>
+                      <td>duonganhdhsph@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>Võ Thị Kim Nhựt</td>
+                      <td></td>
+                      <td>lovekim.904@gmail.com</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Tổ Sử - Địa - GDCD -->
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <span><i class="fas fa-globe-asia"></i> TỔ SỬ - ĐỊA - GDCD</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+              <div class="table-responsive">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>STT</th>
+                      <th>Họ và tên</th>
+                      <th>Chức vụ</th>
+                      <th>Email</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Phạm Đình Kha</td>
+                      <td>Hiệu trưởng</td>
+                      <td>khaphamdinh@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Nguyễn Thị Duy Duyên</td>
+                      <td>Tổ trưởng</td>
+                      <td>DuyDuyen06SDL@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Trịnh Thị Diệp Khanh</td>
+                      <td></td>
+                      <td>trinhdiepkhanh@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>Lê Thị Ngọc Hải</td>
+                      <td></td>
+                      <td>ngochai530@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>Nguyễn Thị Anh Lý</td>
+                      <td>Tổ phó</td>
+                      <td>ntalyvcc@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>Huỳnh Thị Thuý</td>
+                      <td></td>
+                      <td>huynhthuydn2912@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>Nguyễn Thị Huyền</td>
+                      <td></td>
+                      <td>nguyenthihuyen0205@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>8</td>
+                      <td>Nguyễn Thị Kim Như</td>
+                      <td></td>
+                      <td>kimnhu202@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>9</td>
+                      <td>Phạm Thị Trà Linh</td>
+                      <td></td>
+                      <td>tralinh95hp@gmail.com</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. Tổ Vật Lí - Hóa Học -->
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <span><i class="fas fa-flask"></i> TỔ VẬT LÍ - HÓA HỌC</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+              <div class="table-responsive">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>STT</th>
+                      <th>Họ và tên</th>
+                      <th>Chức vụ</th>
+                      <th>Email</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Nguyễn Văn Ngưng</td>
+                      <td>Hiệu phó</td>
+                      <td>ngungnv@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Phan Kim Nguyên</td>
+                      <td>Tổ trưởng</td>
+                      <td>knphan32@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Trương Ngọc Sang</td>
+                      <td></td>
+                      <td>sangnhs2911@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>Trương Thị Thuỳ Linh</td>
+                      <td></td>
+                      <td>thuylinhhoa1b@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>Nguyễn Thị Khánh Ly</td>
+                      <td></td>
+                      <td>khanhly13shh@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>Phạm Nghĩa</td>
+                      <td>Tổ phó</td>
+                      <td>pnghiaqd@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>Thân Trọng Trọng Hùng</td>
+                      <td></td>
+                      <td>danghung2804@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>8</td>
+                      <td>Hồ Như Quỳnh</td>
+                      <td></td>
+                      <td>nhuquynh1629@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>9</td>
+                      <td>Đinh Ngọc Thiện</td>
+                      <td></td>
+                      <td>ngocthien12svl@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>10</td>
+                      <td>Nguyễn Mai Mộng Trâm</td>
+                      <td></td>
+                      <td>mongtram92@gmail.com</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6. Tổ Sinh - TD&QP -->
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <span><i class="fas fa-running"></i> TỔ SINH - TD&QP</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+              <div class="table-responsive">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>STT</th>
+                      <th>Họ và tên</th>
+                      <th>Chức vụ</th>
+                      <th>Email</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Trịnh Văn Thân</td>
+                      <td>Tổ trưởng</td>
+                      <td>thantrinhoik@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Phan Xuân Hải</td>
+                      <td></td>
+                      <td>xuanhai2487@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Phan Thị Diễm</td>
+                      <td></td>
+                      <td>Phanthidiem2309@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>Đặng Thị Xa</td>
+                      <td></td>
+                      <td>dangxa1996@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>Lê Văn Hiếu</td>
+                      <td></td>
+                      <td>levanhieu09stq@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>Nguyễn Văn Đức</td>
+                      <td>Tổ phó</td>
+                      <td>phunghoangkiem@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>Huỳnh Thị Diễm Trinh</td>
+                      <td></td>
+                      <td>diemtrinh8182@yahoo.com.vn</td>
+                    </tr>
+                    <tr>
+                      <td>8</td>
+                      <td>Nguyễn Thị Kim Chung</td>
+                      <td></td>
+                      <td>nguyenkimchung2401@gmail.com</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- 7. Tổ Tiếng Anh -->
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <span><i class="fas fa-language"></i> TỔ TIẾNG ANH</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+              <div class="table-responsive">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>STT</th>
+                      <th>Họ và tên</th>
+                      <th>Chức vụ</th>
+                      <th>Email</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Võ Thị Y Khoa</td>
+                      <td>Tổ trưởng</td>
+                      <td>ykhoa0511@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Hoàng Thị Hương</td>
+                      <td></td>
+                      <td>hoanglinhcang@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Đinh Thị Mỹ Duyên</td>
+                      <td></td>
+                      <td>myduyendinh9x@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>Phạm Thị Khánh Hương</td>
+                      <td></td>
+                      <td>pkhuong91@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>Lê Thị Hà</td>
+                      <td></td>
+                      <td>Haanhk9@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>Trà Thị Ngọc Ánh</td>
+                      <td></td>
+                      <td>ngocanhtra0201@gmail.com</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- 8. Tổ Văn Phòng -->
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <span><i class="fas fa-briefcase"></i> TỔ VĂN PHÒNG</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-body">
+              <div class="table-responsive">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>STT</th>
+                      <th>Họ và tên</th>
+                      <th>Chức vụ</th>
+                      <th>Email</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Nguyễn Thị Thanh Hải</td>
+                      <td>Tổ trưởng</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Nguyễn Thị Thuý Vi</td>
+                      <td>Kế toán</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Nguyễn Kiều My</td>
+                      <td>Văn thư - giáo vụ</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>Phan Thị Hoàng Mỹ</td>
+                      <td>Y tế</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>Lê Tất Nhật</td>
+                      <td>Bảo vệ</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>Châu Quang Lân</td>
+                      <td>Bảo vệ</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>Nguyễn Thị Hoa</td>
+                      <td>Phục vụ</td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news">
+      <div class="container">
+        <div class="section-title">Tin Tức & Sự Kiện</div>
+        <div class="news-grid">
+          <!-- Tin 1 -->
+          <div class="news-card">
+            <div class="news-img">
+              <img src="Img/anhtintuc1.jpg" alt="Hội thi văn nghệ" />
+            </div>
+            <div class="news-content">
+              <span class="news-date">23 Tháng 11, 2025</span>
+              <h4 class="news-title">
+                Thành tích ấn tượng của hai đội thi AI FIRST tại trường Đại học
+                FPT Đà Nẵng
+              </h4>
+              <p class="news-excerpt">
+                Trường THPT Võ Chí Công vinh dự có 2 đội thi và 116 và Đom Đóm
+                chính thức ghi tên mình vào Vòng Chung kết...
+              </p>
+              <a
+                href="https://www.facebook.com/share/p/1JPKdbtztt/"
+                class="read-more"
+                >Xem chi tiết <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <!-- Tin 2 -->
+          <div class="news-card">
+            <div class="news-img">
+              <img src="Img/anhtintuc2.jpg" alt="Ngoại khóa" />
+            </div>
+            <div class="news-content">
+              <span class="news-date">1 Tháng 12, 2025</span>
+              <h4 class="news-title">
+                Đoàn Thanh niên trường THPT Võ Chí Công tổ chức chương trình “Áo
+                ấm cho em” năm 2025
+              </h4>
+              <p class="news-excerpt">
+                Trong hai ngày 29và30/11/2025, Đoàn Thanh niên trường THPT Võ
+                Chí Công đã triển khai chương trình thiện nguyện “Áo ấm cho
+                em”...
+              </p>
+              <a
+                href="https://web.facebook.com/share/p/17WDUdj6Eb/"
+                class="read-more"
+                >Xem chi tiết <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <!-- Tin 3 -->
+          <div class="news-card">
+            <div class="news-img">
+              <img src="Img/anhtintuc3.jpg" alt="Ngày hội đọc sách" />
+            </div>
+            <div class="news-content">
+              <span class="news-date">23 Tháng 11, 2025</span>
+              <h4 class="news-title">
+                GIẢI KHUYẾN KHÍCH TẠI CUỘC THI “THANH THIẾU NIÊN ĐÀ NẴNG ĐỔI MỚI
+                SÁNG TẠO VÌ CỘNG ĐỒNG NĂM 2025"
+              </h4>
+              <p class="news-excerpt">
+                Võ Chí Công – Tự tin hội nhập, sáng tạo vì cộng đồng.
+              </p>
+              <a
+                href="https://www.facebook.com/share/p/1HNisbvYfk/"
+                class="read-more"
+                >Xem chi tiết <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Admissions Section -->
+    <section id="admissions">
+      <div class="container">
+        <div class="admission-content">
+          <div class="section-title">Thông Tin Tuyển Sinh</div>
+          <p>
+            Chào mừng các em học sinh đến với Trường THPT Võ Chí Công. Nhà
+            trường luôn tạo điều kiện tốt nhất để các em phát triển toàn diện về
+            tri thức và nhân cách.
+          </p>
+          <br />
+          <p>
+            <i class="fas fa-calendar-check"></i>
+            <strong>Thời gian nhận hồ sơ:</strong> Từ tháng 6 hàng năm
+          </p>
+          <p>
+            <i class="fas fa-file-alt"></i> <strong>Hình thức:</strong> Xét
+            tuyển theo quy định của Sở GD&ĐT Đà Nẵng
+          </p>
+          <br />
+          <a
+            href="http://thptvochicong.edu.vn/danh-muc/tuyen-sinh"
+            class="btn"
+            style="background-color: var(--white); color: var(--primary-color)"
+            >Đăng ký tư vấn ngay</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+      <div class="container">
+        <div class="section-title">Hình Ảnh Hoạt Động</div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="Img/anhtintuc1.jpg" alt="Ảnh 1" />
+          </div>
+          <div class="gallery-item">
+            <img src="Img/anhtintuc2.jpg" alt="Ảnh 2" />
+          </div>
+          <div class="gallery-item">
+            <img src="Img/anhtintuc3.jpg" alt="Ảnh 3" />
+          </div>
+          <div class="gallery-item">
+            <img src="Img/images.jpg" alt="Ảnh 4" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-title">Liên Hệ</div>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Địa chỉ</h4>
+                <p>93 Cao Hồng Lãnh, Quận Ngũ Hành Sơn, TP. Đà Nẵng</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <h4>Điện thoại</h4>
+                <p>(0236) 3861555 - (0236) 3861777</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>thptvochicong@danang.gov.vn</p>
+              </div>
+            </div>
+            <!-- Google Maps Iframe placeholder -->
+            <div
+              style="
+                width: 100%;
+                height: 200px;
+                background-color: #ddd;
+                margin-top: 20px;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.093405786358!2d108.24586937468305!3d16.00845354106511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314210a1131922c1%3A0xc34125d4825d0330!2zVHLGsOG7nW5nIFRIUFQgVsO1IENow60gQ8O0bmc!5e0!3m2!1svi!2s!4v1700000000000!5m2!1svi!2s"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-content">
+        <h3>Trường THPT Võ Chí Công</h3>
+        <p>Xây dựng tương lai từ tri thức hôm nay.</p>
+        <div class="social-links" style="margin: 20px 0">
+          <a
+            href="https://www.facebook.com/DoanVCC"
+            style="color: white; margin: 0 10px"
+            ><i class="fab fa-facebook fa-2x"></i
+          ></a>
+          <a
+            href="https://youtube.com/@thptvochicong6136?si=UOuSXGmqa2bC08AM"
+            style="color: white; margin: 0 10px"
+            ><i class="fab fa-youtube fa-2x"></i
+          ></a>
+        </div>
+        <p>&copy; 2025 Trường THPT Võ Chí Công.</p>
+      </div>
+    </footer>
+
+    <button id="backToTop" title="Lên đầu trang">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
